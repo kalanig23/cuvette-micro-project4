@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cal.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <script src="./cal.js"></script>   
+    <div class="cal-container">
+        <div class="title">Calculator</div>
+        <input type="text" name="value" placeholder="0" id="calinput">
+        <table class="table-content">
+            <tr>
+                <td  onclick='tdclick(event)' value="7">7</td>
+                <td  onclick='tdclick(event)' value="8">8</td>
+                <td  onclick='tdclick(event)' value="9">9</td>
+                <td  onclick='tdclick(event)' class="del" value="delete">DEL</td>
+            </tr>
+            <tr>
+                <td  onclick='tdclick(event)' value="4">4</td>
+                <td  onclick='tdclick(event)' value="5">5</td>
+                <td  onclick='tdclick(event)' value="6">6</td>
+                <td  onclick='tdclick(event)' value="+">+</td>
+            </tr>
+            <tr>
+                <td  onclick='tdclick(event)' value="1">1</td>
+                <td  onclick='tdclick(event)' value="2">2</td>
+                <td  onclick='tdclick(event)' value="3">3</td>
+                <td  onclick='tdclick(event)' value="-">-</td>
+            </tr>
+            <tr>
+                <td  onclick='tdclick(event)' value=".">.</td>
+                <td  onclick='tdclick(event)' value="0">0</td>
+                <td  onclick='tdclick(event)' value="/">/</td>
+                <td  onclick='tdclick(event)' value="X">X</td>
+            </tr>
+            <tr>
+                <td  onclick='tdclick(event)' colspan="2" class="reset1" value="reset">RESET</td>
+                <td  onclick='tdclick(event)' colspan="2" class="equal" value="=">=</td>
+            </tr>
+        </table>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #3B4664;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.cal-container {
+    width: 450px;
+    /* height: 142.73px; */
+    border-radius: 12px;
+    /* transform: translate(60%, 0%); */
+}
+
+#calinput {
+    text-align: right; 
+    padding-right: 25px;
+    width: 95%;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background: #181F32;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: right;
+    border-color: #181F32;
+    border: 0;
+    margin-bottom: 25px;
+}
+
+.table-content {
+    border-radius: 12px;
+    background: #252D44;
+    width: 100%;
+    border-spacing: 20px; 
+    table-layout: fixed;
+}
+
+table tr {
+    margin: 10px;
+}
+
+
+table td {
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    color: #3B4664;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    padding: 10px;
+    cursor: pointer;
+    width: 33%; 
+}
+
+.del {
+    background: #647299;
+    color: white;
+}
+
+.reset1 {
+    background: #647299;
+    color: white;
+}
+
+.equal {
+    background: #D13F30;
+    color: white;
+}
